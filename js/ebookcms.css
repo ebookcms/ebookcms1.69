@@ -1,0 +1,236 @@
+/* ********************************************
+		eBookCMS admin css
+		Copyright (c) 2015 by Rui Mendes
+   ********************************************
+*/
+
+/* 
+*****************************************************************************************************************
+												L O G I N
+*****************************************************************************************************************
+*/
+.form_login * {margin: 0; padding: 0; clear: both; text-transform: none;}
+.form_login {width: 400px; min-height: 300px; margin:0 auto 0; text-align: center; border: #000 double 4px; background-color: #fff; font-family: Arial, Sans-Serif; font-size: 13px;}
+.login_title {display: block; background: #eee; padding: 15px 5px; font: 14px Verdana, Tahoma, arial, sans-serif; border-bottom: #000 solid 1px;}
+.login_title h1 {padding: 0; margin: 0; clear: both; padding-bottom: 5px;}
+.login_title span {padding: 0; margin: 0;}
+.form_login form {padding: 0;}
+.form_login label {padding: 0; margin: 0; display: block; clear: both;}
+.form_login br {clear: both;}
+.form_login input[type="text"],
+.form_login input[type="password"] {padding: 4px; margin: 0; border: #000 dotted 1px;}
+.info_user {padding: 5px 0px 10px 0px;}
+.login_info {clear: both; padding: 15px 1px 20px 1px; height: 100px; background-color: #fff;}
+.login_foot {clear: both; display: block; background: #eee; border-top: #000 dotted 1px; padding: 5px; height: 67px;}
+.login_foot input {width: 150px;}
+.login_foot .btLogin {margin: 120px; clear: both; display: block; margin-top: 15px;  background-image: none; height: 40px; color: #000;}
+.private {height: 0; width:0; visibility:hidden; overflow: hidden; font-size:1px; position: absolute}
+
+/* 
+*****************************************************************************************************************
+												L O G I N     S E C R E T
+*****************************************************************************************************************
+*/
+.form_logpin * {margin: 0; padding: 0; clear: both; text-transform: none;}
+
+.form_logpin {width: 400px; height: 240px; margin:0 auto 0; text-align: center; border: #000 double 4px; background-color: #fff; font-family: Arial, Sans-Serif; font-size: 13px;}
+.logpin_title {display: block; background: #eee; padding: 10px 5px; font: 14px Verdana, Tahoma, arial, sans-serif; border-bottom: #000 solid 1px;}
+.form_logpin label {padding: 0; margin: 0; display: block; clear: both;}
+.logpin_info {clear: both; padding: 25px 1px 15px 1px; height: 53px; background-color: #fff;}
+.red {color: red;}
+
+/* 
+*****************************************************************************************************************
+												REGISTRATION
+*****************************************************************************************************************
+*/
+
+#register {font-family: Arial, Sans-Serif; font-size: 13px; width: 640px; margin:0 auto 0; display: block;}
+#register fieldset {background-color: #eee; color: #000; padding: 20px;}
+#register h1 {padding-bottom: 20px;}
+#register textarea {width: 550px; clear: both; margin: 15px 0px 5px 0px; display: block; padding: 10px; border: solid 1px #85b85b;}
+#register input[type="text"], 
+#register input[type="password"] {margin-bottom: 5px; display: block; padding: 4px; border: solid 1px #000; width: 550px; clear: both;}
+#register .buttons {margin-bottom: 5px; display: block; padding: 4px; border: solid 1px #85b85b; clear: both; float: right; width: 100px;}
+
+
+/* 
+*****************************************************************************************************************
+											 M E S S A G E S
+*****************************************************************************************************************
+*/
+.ebook_admin .msginfo,
+.ebook_admin .msgsuccess, .msgsuccess, 
+.ebook_admin .msgwarning, .msgwarning, 
+.ebook_admin .msgerror, .msgerror {border: 1px solid; margin: 10px 0px; padding: 15px 10px 15px 50px; background-repeat: no-repeat; background-position: 10px center; font-size: 16px;}
+.msginfo {color: #00529b; background-color: #bde5f8; background-image: url('ebookcms/info.png');}
+.msgsuccess {color: #4f8a10; background-color: #dff2bf; background-image:url('ebookcms/success.png');}
+.msgwarning {color: #9f6000; background-color: #feefb3; background-image: url('ebookcms/warning.png');}
+.msgerror {color: #d8000c; background-color: #ffbaba; background-image: url('ebookcms/error.png');}
+.msgerror li {margin-left: 20px;}
+
+/* 
+*****************************************************************************************************************
+											T A B L E
+*****************************************************************************************************************
+*/
+table.table_ebook {font-style: italic; font-size: 12px; background-color: #fff; color: #777; }
+table.table_ebook {border: 1px solid #006666; padding: 0;}
+table.table_ebook th {font-size: 0.9em; font-style: italic; text-align: center; padding: 0.5em 0; background-color: #003366; color: #fff;}
+table.table_ebook td {text-align:center;}
+table.table_ebook img {border:0; margin:0; display: inline; padding:0;}
+table.table_ebook a {padding-top:5px;}
+table.table_ebook a img {text-align:center; padding-top: 4px;}
+table.table_ebook td img {text-align:center; padding-top: 4px;}
+table.table_ebook tr {background-color: #fff; color: #000;}
+table.table_ebook tr.even {background-color: #b0e0e6; color: #000;}
+table.table_ebook td.center {text-align: center;}
+
+/* 
+*****************************************************************************************************************
+											O P T I O N S 
+*****************************************************************************************************************
+*/
+
+.paginator {text-align: center;}
+.clear {clear: both;}
+
+/* 
+*****************************************************************************************************************
+											ADMIN LINKS
+*****************************************************************************************************************
+*/
+.ebook_admin * {padding: 0; margin: 0; clear: both;}
+.ebook_admin h1 {padding: 15px 10px; margin-bottom: 10px;}
+.ebook_admin h2 {padding: 10px 0; margin-bottom: 10px;}
+.ebook_admin fieldset {padding: 5px 2px; margin-bottom: 20px; clear: both;}
+.ebook_admin p {padding: 5px 0px;}
+.ebook_admin ul {margin-left: 40px;}
+.eb_legend {padding: 0.2em 0.5em; border: 1px solid green; background-color: #fff; color: green; text-align: left; margin-left: 10px;}
+.h1_title {background: #eee; display: block;}
+
+/* 
+*****************************************************************************************************************
+											oFORMS
+*****************************************************************************************************************
+*/
+.oforms * {margin: 0; padding: 0;}
+.oforms {display: block; margin: 0; padding:0;}
+.oforms fieldset {padding: 10px; margin-bottom: 14px; color: #000; background-color: #fff; display: block; border: #ddd solid 1px;}
+.oforms dt {display: inline;}
+.oforms dd {margin: 0; padding: 0;}
+.oforms label {font-size: 16px;}
+.oforms input {font-size: 14px; padding: 1px;}
+.oforms input[type="text"] {clear: both; text-align: left;}
+.oforms input[type="checkbox"] {clear: both; margin: 0; padding: 0;}
+.oforms textarea {margin-top: 5px; padding: 10px; width: 98%; height: 80px;}
+.oforms input[type="submit"] {clear: both;  padding: 0;}
+.ebform_edit {display: block; clear: both;}
+.eb_legend a {margin: 0px 5px; text-decoration: none;}
+
+
+/* 
+*****************************************************************************************************************
+									COMMENT FORM
+*****************************************************************************************************************
+*/
+#commentform {width: 98%; margin: 5px;}
+#commentform fieldset {margin: 10px; padding: 20px;}
+#commentform h1 {padding: 0; margin:0;}
+#commentform p.reply, #commentform p.msg_bbcode {padding: 0; margin: 5px;}
+#commentform input[type="text"] {display: block; margin: 0 0 15px 0; width: 98%;}
+#commentform textarea {width: 96%; height: 100px; margin: 10px 0; padding: 10px;}
+#commentform label {clear: both;}
+.buttons {margin-bottom: 5px; display: block; padding: 5px 10px; border: solid 1px #85b85b; clear: both; float: right;}
+
+/* 
+*****************************************************************************************************************
+									COMMENTS - LIST
+*****************************************************************************************************************
+*/
+.comment {border: dotted 1px #85b85b; margin: 0 15px 15px 15px; width: 96%; clear: right;}
+.vcard {border-bottom:  1px solid  #85b85b; height: 35px; padding:15px;}
+.vleft {width: 450px; float: left;}
+.user_cite {width: 300px; height: 25px;}
+.date {font: 70%/1.2em Verdana, Tahoma, arial, sans-serif;}
+.comment-avatar {display:block; float: right;}
+.comment-content {padding: 0 20px 10px 20px; }
+.comment_footer {border-top:  1px solid  #85b85b; height: 12px; padding:5px 15px; margin-top: 25px;}
+
+
+
+/* 
+*****************************************************************************************************************
+									ICONS
+*****************************************************************************************************************
+*/
+
+.admin_core {padding: 5px; clear: both;}
+.admin_core ul {padding: 0px; margin:0; clear: both;}
+.admin_core ul li {display: inline-block; width: 150px; height: 110px; padding: 2px;}
+.admin_core ul li {border: #000 solid 1px; margin: 10px;}
+.admin_core ul li a {display: inline; text-align: center; float: left; padding-top: 80px; width: 150px; height: 30px;}
+.admin_core ul li {background-repeat: no-repeat; background-position: 50px 10px; background-image: url(images/default.png);}
+.admin_core ul li.change_profile {background-image: url(images/user.png);}
+.admin_core ul li.mypassword {background-image: url(images/mypassword.png);}
+.admin_core ul li.logout {background-image: url(images/logout.png);}
+.admin_core ul li.s_setup {background-image: url(images/setup.png);}
+.admin_core ul li.s_langs {background-image: url(images/langs.png);}
+.admin_core ul li.s_sections {background-image: url(images/sections.png);}
+.admin_core ul li.s_users {background-image: url(images/users.png);}
+.admin_core ul li.s_iplugins {background-image: url(images/iplugins.png);}
+.admin_core ul li.s_plugins {background-image: url(images/plugins.png);}
+.admin_core ul li.s_comments {background-image: url(images/comments.png);}
+.admin_core ul li.s_upimgs {background-image: url(images/upload.png);}
+.admin_core ul li.s_approved {background-image: url(images/approved.png);}
+.admin_core ul li.s_comwap {background-image: url(images/awaiting.png);}
+.admin_core ul li.s_spam {background-image: url(images/spam.png);}
+.admin_core ul li.s_ublocked {background-image: url(images/ublocked.png);}
+.admin_core ul li.s_combke {background-image: url(images/bemail.png);}
+.admin_core ul li.s_comarch {background-image: url(images/archieved.png);}
+.admin_core ul li.s_comrep {background-image: url(images/report.png);}
+.admin_core ul li.s_back {background-image: url(images/back.png);}
+.admin_core ul li.change_pmsg {background-image: url(images/pmessage.png);}
+
+/* 
+*****************************************************************************************************************
+									TABS
+*****************************************************************************************************************
+*/
+
+
+.ftab {overflow: hidden; clear: both; text-transform: none; width: 100%;}
+.ftab ul {margin: 0; padding: 0; width: 100%; list-style: none; font-size: 16px;}
+.ftab li {margin: 0; display: inline;}
+.ftab li {background-color: #F8F8F8; border: 1px solid; border-color:#eee #bbb #bbb #eee; margin-right: 1px; height: 25px;}
+.ftab li a {color: #444; font-weight: bold; text-align: center; text-decoration: none; padding: 0px 10px;}
+.ftab li.current {background: #888;}
+.ftab li.current a {color: #fff;padding: 0px 10px;}
+.tcontent {padding-top: 20px;}
+.ebform_edit {padding-top: 15px;}
+.tab_content {background:#FFF; padding:0; display:none;}
+.tab_content.active {display:block;}
+.tab_content ul {margin:0px; padding:0px; list-style:none;}
+.tab_content li {display: block; overflow: hidden; border-bottom:1px solid #d6dde0;}
+.tab_content li:last-child {border-bottom:none;}
+.tab_content li a:hover {color:#000;}
+.eBookRTE li * {margin: 0; padding: 0;}
+.tab_content input[type="file"] {padding: 2px; margin: 0; border: #000 dotted 1px; margin-bottom: 2px;}
+.tab_content input.upload_files {width: 600px;}
+
+/* 
+*****************************************************************************************************************
+							SHOW IMAGES INSIDE UPLOAD IMAGES
+*****************************************************************************************************************
+*/
+.show_img {margin: 0; padding: 0;}
+.show_img ul {list-style: none; font-size: 10px; padding: 5px 2px; width: 100%;}
+.show_img li {display: inline-block; border: 1px dotted #aaa; width: 145px; margin-right: 2px;}
+.show_img li:last-child {border-bottom: 1px dotted #aaa;}
+.show_img div.si_title {margin: 0 2px; padding: 0; height: 20px;}
+.show_img h4 {width: 140px; text-align: center; padding: 2px; margin: 0; font: 12px Verdana, Tahoma, arial, sans-serif; overflow: hidden;}
+.show_img div.si_img {margin: 0; padding: 0; width: 140px; height: 130px; vertical-align: middle; text-align: center;}
+.show_img img {display: block; margin: 0 auto;  max-height: 130px; max-width: 140px; height: 125px; overflow: hidden;}
+.show_img div.si_foot {margin: 0 2px; padding: 0; height: 20px;}
+.show_img p {width: 140x; text-align: center; padding: 1px; margin-bottom: 4px; clear: both; overflow: hidden;}
+

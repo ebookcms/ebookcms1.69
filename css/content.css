@@ -1,0 +1,23 @@
+/* 
+*****************************************************************************************************************
+									CONTENT 
+*****************************************************************************************************************
+*/
+
+body {color: #605605;}
+.main_content {width: 950px;}
+.main_content h1 {padding: 12px;}
+.main_content h2 {padding: 10px;}
+.main_content h3 {padding: 8px;}
+.main_content ul {margin-left: 45px;}
+.main_content p {padding: 14px;}
+.main_content ul {margin-left: 45px;}
+.main_content ol {padding-left: 45px;}
+.main_content code {margin-left: 10px;}
+.main_content ol.code {margin: 10px 40px; width: 850px; background: #003333; overflow: auto; font-family: "Courier New", Courier, mono; color: #fff; padding:0 0 0 2.8em;}
+.main_content ol.code li {background: #FFCC66; font-size: small; color: #fff;}
+.main_content ol.code code {color: #036;}
+.main_content .header h1 {padding: 0;}
+.main_content p.small {font: 70%/1.2em Verdana, Tahoma, arial, sans-serif; padding: 0;}
+.main_content fieldset {background-color: #fff;}
+.main_content #comment-list div {background-color: #FFFFCC;}
